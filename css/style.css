@@ -1,3 +1,9 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
 
 html,
 body {
@@ -491,8 +497,34 @@ a.resumeButton{
     }
 }
 
+@media screen and (max-width: 768px) {
+
+    .mobileHide {display: none;}
+    .mobileShow {display: block;}
+    
+    }  
+
+
+@media screen and (min-width: 900px) {
+
+    .mobileShow {display: none;}
+    
+    }  
+/* 
+
+.mobileHide{ 
+    display: inline;
+}
+
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+     .mobileHide { display: none;}
+  } */
+
+
 @media(max-width:384px) {}
 
 @media(max-width:375px) {}
 
-/*--//responsive--*/
+
