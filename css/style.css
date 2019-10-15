@@ -58,6 +58,7 @@ p {
     line-height: 1.9em;
     letter-spacing: 1px;
     margin-bottom: 0;
+    text-shadow: 1px 1px 10px black;
 }
 
 ul {
