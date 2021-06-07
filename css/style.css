@@ -66,6 +66,9 @@ ul {
     padding: 0;
 }
 
+/* #scrollcontent {
+    overflow: scroll !important;
+} */
 
 .breadcrumb,
 ol {
@@ -75,7 +78,7 @@ ol {
 /*--/banner --*/
 
 .main-banner {
-    background: url(../images/banner1.jpg)no-repeat center;
+    background: url(../images/10.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -251,7 +254,7 @@ h4.sub-title.two {
 }
 
 .gal-img img {
-    border-radious: 0px;
+    border-radius: 0px;
 }
 
 
@@ -313,22 +316,34 @@ form.contact-form {
 }
 
 a.resumeButton{
-    background: #ff4c4c;
-    padding: 0.8em 3em;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #fff;
-    border-radius: 0px;
-
-    text-transform: uppercase;
-    font-weight: 800;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    border: none;
+    display: inline-block;
+    letter-spacing: .1em;
+    padding: 0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    color: #FFFFFF;
+    border-radius: 0.12em;
+    transition:  all .2s;
+    text-align: center;
+    font-weight: 500;
+    box-sizing: border-box;
+    text-decoration: none;
+    
 }
+
+a.resumeButton:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+    }
+
+    /* @media all and (max-width:30em){
+     a.resumeButton{
+        display: block;
+        margin: .4em auto;
+    } */
+     
+
+
 .contact-form button.btn:hover {
     opacity: 0.8;
 }
@@ -508,6 +523,7 @@ a.resumeButton{
 
 @media screen and (min-width: 900px) {
 
+
     .mobileShow {display: none;}
     
     }  
@@ -528,4 +544,4 @@ a.resumeButton{
 
 @media(max-width:375px) {}
 
-
+    }
